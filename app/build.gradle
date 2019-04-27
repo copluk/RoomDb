@@ -39,4 +39,9 @@ dependencies {
     kapt "android.arch.persistence.room:compiler:$room_ver"
     testImplementation "android.arch.persistence.room:testing:$room_ver"
     implementation "android.arch.persistence.room:rxjava2:$room_ver"
+
+    //偷懶用個rx , 真的是個好東西
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.0'
+    implementation 'io.reactivex.rxjava2:rxkotlin:2.3.0'
 }
